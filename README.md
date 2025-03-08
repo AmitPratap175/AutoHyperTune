@@ -12,7 +12,16 @@ Hyperparameters control how a model learns. The right set of hyperparameters can
 ### **1. Bayesian Optimization-Based**  
 - [Optuna](https://optuna.org/) – Lightweight, easy-to-use optimization framework with pruning support  
 - [Spearmint](https://github.com/HIPS/Spearmint) – Bayesian optimization with Gaussian processes  
-- [GPyOpt](https://sheffieldml.github.io/GPyOpt/) – Bayesian optimization built on GPy  
+- [GPyOpt](https://sheffieldml.github.io/GPyOpt/) – Bayesian optimization built on GPy
+- [Pyhopper](https://github.com/PyHopper/PyHopper) – Lightweight, fast hyperparameter optimization with an easy-to-use API and support for asynchronous parallelism  
+
+### **Features to Add:**  
+- Supports both **grid search and Bayesian optimization**  
+- **Asynchronous parallel execution** for faster tuning  
+- **Built-in logging and visualization** tools  
+- **Supports multiple ML frameworks** like PyTorch, TensorFlow, and Scikit-Learn  
+- **Dynamic search space definition** with conditional parameters  
+ 
 
 ### **2. Evolutionary & Population-Based**  
 - [DEAP](https://deap.readthedocs.io/en/master/) – Distributed evolutionary algorithms  
